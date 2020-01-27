@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0.0
+Encoding=UTF-8
+Name=Catalogo Cash
+Type=Application
+Icon=/opt/app/loader/assets/icon.png
+Exec=/usr/bin/chromium-browser --window-size=1920,1080 --start-fullscreen --kiosk --incognito --noerrdialogs --disable-translate --no-first-run --fast --fast-start --disable-infobars --disable-features=TranslateUI --disk-cache-dir=/dev/null  --password-store=basic  --window-position=0,0 file:///opt/app/loader/index.html &
